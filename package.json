@@ -4,7 +4,7 @@
   "description": "weather app using dynamic express server with hbs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "author": "vivek vaibhav",
   "license": "ISC",

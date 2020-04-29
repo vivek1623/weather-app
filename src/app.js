@@ -6,6 +6,8 @@ const getForecast = require('./utils/getForecast')
 
 const app = express()
 
+const port = process.env.PORT || 1623
+
 // to set the hbs as view engine in app for dynamic changes of html
 
 app.set('view engine', 'hbs')
@@ -96,6 +98,6 @@ app.get('*', (req, res) => {
 
 //-----------------------------------
 
-app.listen('1623', () => {
-  console.log('server is up on port 1623')
+app.listen(port, () => {
+  console.log(`server is up on port ${port}`)
 })
