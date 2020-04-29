@@ -32,7 +32,7 @@ weatherForm.addEventListener('submit', event => {
           imgTag.setAttribute("src", imgSrc)
           imgContainer.style.display = 'block'
         }
-        const weatherInfo = `${data.forecast.weather_descriptions[0]}. It is currently ${data.forecast.temperature} degree out and it feels like ${data.forecast.feelslike} degree. `
+        const weatherInfo = `${data.forecast.weather_descriptions[0]}. It is currently ${data.forecast.temperature} degree out and it feels like ${data.forecast.feelslike} degree. The humidity is ${data.forecast.humidity}%.`
         messageOne.textContent = data.location
         messageTwo.textContent = weatherInfo
       }
