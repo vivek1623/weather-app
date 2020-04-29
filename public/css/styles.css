@@ -3,7 +3,7 @@ body {
     color: #303030;
 
     /* background-color: #eff0f4; */
-    max-width: 620px;
+    max-width: 768px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -51,7 +51,7 @@ button {
 }
 
 .footer {
-    max-width: 620px;
+    max-width: 768px;
     width: 100%;
     margin: auto;
     padding: 15px;
