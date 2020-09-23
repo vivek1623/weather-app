@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit', event => {
     .then(data => {
       if (data.error) {
         messageOne.textContent = data.error
-        essageTwo.textContent = ''
+        messageTwo.textContent = ''
       }
       else {
         if (data.forecast.weather_icons && data.forecast.weather_icons.length > 0) {
